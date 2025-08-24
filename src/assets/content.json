@@ -1,0 +1,277 @@
+{
+  "hero": {
+    "name": "Harsha Apoorv",
+    "tagline": "I build thoughtful, eye-pleasing and functional mobile & web applications — currently applying for my Master’s and exploring the world of design and development"
+  },
+  "about": {
+    "title": "About me",
+    "paragraphs": [
+      "Hi, I’m Harsha Apoorv — a passionate Mobile Application Developer at Tata Consultancy Services, where I build cross-platform apps that blend functionality with pixel-perfect design using React Native.",
+      "My journey with computers began as a curious kid endlessly fascinated by how things work — and that curiosity naturally evolved into a love for programming. Over the years, I’ve honed a deep appreciation for clean, scalable code and thoughtful user experiences.",
+      "Though I primarily specialize in mobile development, my interests span across Python (my not-so-secret favorite 🐍) and I’m increasingly drawn to the world of AI and Machine Learning. I'm always open to new ideas, collaborations, and creative challenges in those areas too.",
+      "When I’m not coding, you might find me sketching ideas for new apps, experimenting with tech tools, or just enjoying the process of learning something new."
+    ],
+    "skills": [
+      { "image": "py", "text": "Python" },
+      { "image": "c", "text": "C" },
+      { "image": "cpp", "text": "C++" },
+      { "image": "java", "text": "Java" },
+      { "image": "html", "text": "HTML" },
+      { "image": "css", "text": "CSS" },
+      { "image": "js", "text": "Java Script" },
+      { "image": "ts", "text": "Type Script" },
+      { "image": "react", "text": "React" },
+      { "image": "rn", "text": "React Native" },
+      { "image": "expo", "text": "Expo" },
+      { "image": "redux", "text": "Redux" },
+      { "image": "sql", "text": "SQL" },
+      { "image": "figma", "text": "Figma" },
+      { "image": "git", "text": "Git" },
+      { "image": "vs", "text": "VS Code" },
+      { "image": "postman", "text": "Postman" },
+      { "image": "nodejs", "text": "Node JS" }
+    ]
+  },
+  "experience": {
+    "title": "Experience",
+    "jobs": [
+      {
+        "id": 1,
+        "title": "Mobile Application Developer",
+        "name": "Tata Consultancy Services",
+        "time": "June 2023 - Present",
+        "logo": "tcs",
+        "companyLinkedIn": "https://www.linkedin.com/company/tata-consultancy-services/posts/?feedView=all",
+        "responsibilities": [
+          "Delivered a mobile-first pensions dashboard with pixel-perfect UI in React Native, driving a 40% boost in user satisfaction after migrating from a legacy web platform.",
+          "Built custom reusable components and integrated Redux Toolkit + RTK Query for fast, responsive state and API management.",
+          "Launched 4 production releases on Apple App Store & Google Play, achieving 100k+ downloads and 5k+ daily active users."
+        ],
+        "tech": ["React Native", "Android/iOS", "JavaScript"]
+      },
+      {
+        "id": 2,
+        "title": "React Native Developer",
+        "name": "DuYu",
+        "time": "Dec 2024 - May 2025",
+        "logo": "duyu",
+        "companyLinkedIn": "https://www.linkedin.com/company/duyu-in/posts/?feedView=all",
+        "responsibilities": [
+          "Independently developed a feature-rich cross-platform app from concept to deployment, including design, coding, and testing.",
+          "Implemented secure persistent login, OTP authentication, chatbot assistance, and animated content displays for enhanced UX.",
+          "Optimized navigation, performance, and responsiveness using React Native animations and layout techniques."
+        ],
+        "tech": ["React Native", "Android/iOS", "JavaScript"]
+      },
+      {
+        "id": 3,
+        "title": "Web Developer Intern",
+        "name": "Black Bucks Pvt. Ltd.",
+        "time": "Feb 2022 - Mar 2022",
+        "logo": "bb",
+        "companyLinkedIn": "https://www.linkedin.com/company/blackbucks/posts/?feedView=all",
+        "responsibilities": [
+          "Designed and implemented a responsive UI for a Resume Builder platform, enabling college students to create fully customizable resumes with ease.",
+          "Participated in weekly team meetings to discuss development progress, align priorities, and address technical challenges.",
+          "Prepared and delivered status reports outlining completed tasks, upcoming goals, and blockers, gaining hands-on experience in professional workplace communication."
+        ],
+        "tech": ["HTML 5", "CSS 3", "JavaScript"]
+      }
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "subTitle": "Here’s a glimpse into my educational background and my extracurricular activities",
+    "education": [
+      {
+        "image": "srkr",
+        "name": "SRKR Engineering College 🎓",
+        "year": "2019-23",
+        "type": "Under Graduation",
+        "gpa": "8.13 CGPA",
+        "stream": "Computer Science & Engineering",
+        "pdf": "btech_transcript"
+      },
+      {
+        "image": "tirumala",
+        "name": "Tirumala Junior Kalasala 🏫",
+        "year": "2017-19",
+        "type": "Pre University",
+        "gpa": "10.0 CGPA",
+        "stream": "Maths, Physics, Chemistry",
+        "pdf": "intermediate_marksheet"
+      },
+      {
+        "image": "cbse",
+        "name": "Vasavi ideal public school 🏫",
+        "year": "2016-17",
+        "type": "High School",
+        "gpa": "10.0 CGPA",
+        "stream": "CBSE",
+        "pdf": "highschool_marksheet"
+      }
+    ],
+    "nextTitle": "Extracurriculars",
+    "curriculars": [
+      { "image": "ace", "text": "Executive Body Member" },
+      { "image": "hw", "text": "Helping Wings" },
+      { "image": "bb", "text": "Web Developer Intern" },
+      { "image": "foot", "text": "Soccer Captain" },
+      {
+        "image": "basket",
+        "text": "Basketball Captain"
+      }
+    ],
+    "arr": [
+      {
+        "images": ["ace.svg", "ace1.svg"],
+        "title": "Executive Body Member",
+        "desc": "As an Executive Body Member at ACE, I coordinated events, led teams of volunteers, and facilitated successful hackathons & mock interviews for the students of our department. This experience strengthened my skills in leadership, team communication, and organizational planning."
+      },
+      {
+        "images": ["hw.svg", "hw1.svg"],
+        "title": "Helping Wings",
+        "desc": "Being awarded the title of Helping Wings — the first-ever in the organization's history — came with greater responsibility. It enabled me to collaborate effectively across multiple internal teams and also gave me the opportunity to participate in the recruitment of new members. This experience significantly strengthened my leadership, coordination, and team-building skills."
+      },
+      {
+        "images": ["bb.svg"],
+        "title": "Web Developer Intern",
+        "desc": "As a Web Developer Intern at Blackbucks Pvt. Ltd., I developed an ATS-optimized resume builder that empowered over 500 users to create customized resumes. Leveraging JavaScript, HTML, and CSS, I improved development efficiency by 50% through modular code and streamlined UI components."
+      },
+      {
+        "images": ["foot.svg", "foot1.svg"],
+        "title": "Soccer Captain",
+        "desc": "As the captain of our college soccer team in multiple Inter-Zonal tournaments, and the first winning captain of our departmental team, I gained valuable experience in leadership, strategy, and team dynamics. These experiences taught me discipline, resilience, and the importance of collaboration under pressure."
+      },
+      {
+        "images": ["basket.svg"],
+        "title": "Basketball Captain",
+        "desc": "As a core player in our college basketball team and the captain of our departmental team, I led our squad to multiple Inter-College tournament finals. While we narrowly missed the championship on a few occasions, these experiences refined my ability to stay focused under pressure, support team cohesion, and demonstrate perseverance through setbacks."
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projects",
+    "projects": [
+      {
+        "id": 1,
+        "image": "/projects/cyber.png",
+        "title": "Cyberbullying Detection",
+        "summary": "A classification algorithm that classifies a comment whether it is considered cyber bullying or not.",
+        "tags": ["Python", "Machine Learning"],
+        "links": [
+          {
+            "id": 1,
+            "text": "Live Demo",
+            "link": "https://tinyurl.com/cyber-bullying-report"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "image": "/projects/nest.jpg",
+        "title": "Nest Pensions Mobile App",
+        "summary": "A mobile app for users of Nest to navigate their retirement and pensions journey.",
+        "tags": ["React Native", "JavaScript"],
+        "links": [
+          {
+            "id": 1,
+            "text": "Live Demo",
+            "link": "https://www.nestpensions.org.uk/schemeweb/nest/app.html"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "image": "/projects/duyu.jpg",
+        "title": "DuYu Mobile App",
+        "summary": "A cross-platform mobile app for goal based investments and investment tracking.",
+        "tags": ["React Native", "JavaScript"],
+        "links": [
+          {
+            "id": 1,
+            "text": "Live Demo",
+            "link": "https://duyu.in"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "image": "/projects/jtgeats.png",
+        "title": "Food Menu Application",
+        "summary": "An application for food options and menus with clean and visually appealing designs.",
+        "tags": ["HTML/CSS", "JavaScript"],
+        "links": [
+          {
+            "id": 1,
+            "text": "Live Demo",
+            "link": "https://harshaapoorv.github.io/Food-Delivery/"
+          },
+          {
+            "id": 2,
+            "text": "GitHub",
+            "link": "https://github.com/Harshaapoorv/Food-Delivery"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "image": "/projects/portfolio.png",
+        "title": "Professional Portfolio",
+        "summary": "A professional portfolio implemented with the help of React and Tailwind",
+        "tags": ["React + Tailwind", "JavaScript"],
+        "links": [
+          {
+            "id": 1,
+            "text": "Live Demo",
+            "link": "https://www.harshaapoorv.com"
+          },
+          {
+            "id": 2,
+            "text": "GitHub",
+            "link": "https://github.com/Harshaapoorv/my-portfolio"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "image": "/projects/Github.png",
+        "title": "View More",
+        "summary": "Explore more on GitHub",
+        "link": "https://github.com/Harshaapoorv"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "subTitle": "Let's Connect",
+    "text": "Whether it’s a freelance project, collaboration, or just a friendly hello — I’d love to hear from you!!!",
+    "socials": [
+      {
+        "image": "sololearn",
+        "link": "https://www.sololearn.com/en/profile/15201686"
+      },
+      {
+        "image": "codingame",
+        "link": "https://www.codingame.com/profile/bf1231e643c9a1b656582be9f2c8aa978740475"
+      },
+      {
+        "image": "hackerrank",
+        "link": "https://www.hackerrank.com/profile/harshaapoorv"
+      },
+      {
+        "image": "github",
+        "link": "https://github.com/Harshaapoorv"
+      },
+      {
+        "image": "gmail",
+        "link": "mailto:harshaapoorva164@gmail.com"
+      },
+      {
+        "image": "linkedin",
+        "link": "https://www.linkedin.com/in/harshaapoorv/"
+      }
+    ],
+    "footer": "© 2025 Harsha Apoorv"
+  }
+}

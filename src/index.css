@@ -1,0 +1,203 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.body {
+  width: 100%;
+  background-color: rgb(245, 245, 244);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  padding: 16px 24px;
+}
+
+.navBar {
+  gap: 24px;
+}
+
+.navBar a:hover {
+  color: #748c76;
+}
+
+a,
+.seperator {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  font-size: medium;
+  color: #4b5563;
+}
+
+.hero {
+  padding-left: 10%;
+  width: 100%;
+}
+
+.image {
+  height: 50%;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  background-color: #748c76;
+  padding: 12px 24px;
+  gap: 8px;
+  border-radius: 8px;
+}
+
+.buttonSecondary {
+  display: flex;
+  flex-direction: row;
+  padding: 12px 24px;
+  gap: 8px;
+  color: #748c76;
+}
+
+.about,
+.contact,
+.education {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: #e7ece8;
+  gap: 24px;
+  padding: 24px 16px;
+}
+
+.experience {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  padding: 24px 16px;
+}
+
+.aboutInner {
+  max-width: 85%;
+  gap: 24px;
+  justify-content: center;
+}
+
+.paragraphs {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+
+.carousal {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.subheading {
+  color: #4b5563;
+}
+
+.connect {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.contactpara {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 14;
+  font-weight: 600;
+  color: #4b5563;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.input {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.input label {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  font-size: 24;
+  color: #4b5563;
+  padding-left: 4px;
+}
+
+.message {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sennButton {
+  display: flex;
+  align-self: flex-end;
+}
+
+.footer {
+  width: 100%;
+  background-color: rgb(245, 245, 244);
+  justify-self: flex-end;
+  align-self: flex-end;
+}
+
+.educationCarousal {
+  align-items: center;
+  justify-content: center;
+}
+
+.educationLogo {
+  border-radius: 48px;
+}
+
+.left-curve {
+  border-top-right-radius: 24px;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+}
+
+.right-curve {
+  border-top-left-radius: 24px;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+}
+
+.projects {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards {
+  width: 100%;
+  height: 100%;
+}
+
+.card {
+  height: 100%;
+  justify-content: space-between;
+}
