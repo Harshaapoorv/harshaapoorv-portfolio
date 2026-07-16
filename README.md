@@ -177,20 +177,25 @@ Visitors can connect through:
 # 📂 Project Structure
 
 ```text
-my-portfolio-desktop/
+harshaapoorv-portfolio/
 │
 ├── public/
 │
 ├── src/
 │   ├── assets/
 │   ├── components/
-│   ├── constants/
+│   ├── screens/
 │   ├── pages/
-│   ├── styles/
+│   ├── App.css
 │   ├── App.jsx
+│   ├── index.css
 │   └── main.jsx
 │
+├── eslint.config.js
+├── index.html
 ├── package.json
+├── tailwind.config.js
+├── postcss.config.js
 ├── vite.config.js
 └── README.md
 ```
