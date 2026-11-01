@@ -1,0 +1,35 @@
+{
+  "title": "Cyberbullying detection",
+  "summary": "Led a 5-person team: NLTK + TF-IDF on 20K+ tweets, 4 models compared, Random Forest at 92% accuracy.",
+  "meta": "CAPSTONE · 2022–23",
+  "categories": ["AI/ML"],
+  "status": "archived",
+  "order": 5,
+  "cover": { "src": "/images/projects/cyberbullying-detection/cover.webp", "alt": "Cyberbullying detection project" },
+  "headline": "Detecting cyberbullying in tweets with classic NLP",
+  "intro": "My B.Tech capstone. I led a team of five to build a text classifier that flags cyberbullying in tweets.",
+  "role": "Team lead: scoped the project, built the pipeline and compared the models.",
+  "stack": ["Python", "scikit-learn", "NLTK", "TF-IDF"],
+  "stats": [
+    { "value": "20K+", "label": "tweets", "tone": "yellow" },
+    { "value": "4", "label": "models compared" },
+    { "value": "92%", "label": "accuracy (Random Forest)", "tone": "blue" }
+  ],
+  "links": [{ "label": "Project report", "url": "https://tinyurl.com/cyber-bullying-report", "primary": true }],
+  "sections": [
+    {
+      "type": "list",
+      "title": "How it works",
+      "items": [
+        "Cleaned and tokenized 20K+ tweets with NLTK",
+        "Turned text into features with TF-IDF",
+        "Trained and compared 4 classifiers; Random Forest reached 92% accuracy"
+      ]
+    },
+    {
+      "type": "text",
+      "title": "What's next",
+      "paragraphs": ["Automatically reporting flagged content was scoped as future work; the project delivered the detection model."]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "title": "This portfolio",
+  "summary": "Multi-page React site with pre-rendered routes, animations, JSON-driven content and a contact form that lands in my inbox.",
+  "meta": "PERSONAL · 2025 – NOW",
+  "categories": ["Frontend"],
+  "status": "shipped",
+  "order": 6,
+  "badge": "YOU ARE HERE",
+  "headline": "This site: a portfolio built like a product",
+  "intro": "Version 2 of my portfolio. Every page is pre-rendered, every word and image comes from validated JSON, and the whole thing is built from reusable components.",
+  "role": "Design and development.",
+  "stack": ["React", "TypeScript", "React Router", "Tailwind CSS", "Zod", "Vercel"],
+  "links": [
+    { "label": "Source code", "url": "https://github.com/Harshaapoorv/harshaapoorv-portfolio", "primary": true }
+  ],
+  "sections": [
+    {
+      "type": "cards",
+      "title": "How it's built",
+      "items": [
+        { "title": "Content as data", "text": "Projects, roles, stats and copy live in JSON files validated with Zod. A new project is a new file, not new code.", "highlight": true },
+        { "title": "Pre-rendered pages", "text": "Every route is rendered to HTML at build time, so pages load fast and share with their own previews." },
+        { "title": "Accessible motion", "text": "Animations respect reduced-motion settings; keyboard focus is always visible." },
+        { "title": "Tested", "text": "Unit tests for the content, end-to-end tests for every route, and CI on every pull request." }
+      ]
+    },
+    {
+      "type": "gallery",
+      "title": "Version 1",
+      "images": [{ "src": "/images/projects/portfolio/cover-v1.webp", "alt": "The first version of this portfolio", "caption": "The single-page site this one replaced" }]
+    }
+  ]
+}

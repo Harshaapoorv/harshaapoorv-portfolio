@@ -1,0 +1,29 @@
+{
+  "role": "Association of Computer Engineers",
+  "organization": "SRKR Engineering College",
+  "monogram": "ACE",
+  "period": "2021 – 2023",
+  "location": "Bhimavaram, India",
+  "type": "Student leadership",
+  "order": 5,
+  "summary": "Executive → Senior Body → Helping Hand. Ran hackathons and fests for 1,000+ attendees.",
+  "headline": "Three roles in the department's student association",
+  "intro": "The Association of Computer Engineers runs the CSE department's technical events. I moved up through three roles in it during my B.Tech.",
+  "stats": [{ "value": "1,000+", "label": "attendees at events we ran", "tone": "yellow" }],
+  "sections": [
+    {
+      "type": "timeline",
+      "title": "Roles",
+      "items": [
+        { "date": "ROLE 1", "text": "Executive Body Member" },
+        { "date": "ROLE 2", "text": "Senior Body Member" },
+        { "date": "ROLE 3", "text": "Helping Hand" }
+      ]
+    },
+    {
+      "type": "list",
+      "title": "What I did",
+      "items": ["Organized hackathons and technical fests for 1,000+ attendees"]
+    }
+  ]
+}

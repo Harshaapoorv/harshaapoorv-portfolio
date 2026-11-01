@@ -1,0 +1,17 @@
+{
+  "title": "Food menu web app",
+  "summary": "Responsive menu browsing with category filters, deployed on GitHub Pages.",
+  "meta": "COLLEGE · FEB – MAR 2022",
+  "categories": ["Frontend"],
+  "status": "shipped",
+  "order": 8,
+  "cover": { "src": "/images/projects/food-menu/cover.webp", "alt": "Food menu web app home page" },
+  "headline": "A food menu site, in plain HTML, CSS and JavaScript",
+  "intro": "An early web project: a responsive menu site with clean visuals and category filters.",
+  "role": "Solo build.",
+  "stack": ["HTML", "CSS", "JavaScript"],
+  "links": [
+    { "label": "Live site", "url": "https://harshaapoorv.github.io/Food-Delivery/", "primary": true },
+    { "label": "Code", "url": "https://github.com/Harshaapoorv/Food-Delivery" }
+  ]
+}
