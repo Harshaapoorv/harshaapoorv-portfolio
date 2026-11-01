@@ -6,55 +6,163 @@
   "status": "shipped",
   "featured": true,
   "order": 2,
-  "cover": { "src": "/images/projects/notesapp/banner-mobile.webp", "alt": "NotesApp banner showing the mobile app screens" },
+  "cover": {
+    "src": "/images/projects/notesapp/banner-mobile.webp",
+    "alt": "NotesApp banner showing the mobile app screens"
+  },
   "headline": "NotesApp: a notes app I took from schema to signed APK",
   "intro": "A React Native app on top of a FastAPI backend I designed, secured and deployed myself. Two repos, one product, every layer mine.",
   "role": "Everything: product, database, API, auth, mobile UI, deployment and release.",
-  "stack": ["React Native", "TypeScript", "RTK Query", "FastAPI", "PostgreSQL", "SQLAlchemy", "Alembic", "JWT", "Google OAuth", "Render", "Neon"],
+  "stack": [
+    "React Native",
+    "TypeScript",
+    "RTK Query",
+    "FastAPI",
+    "PostgreSQL",
+    "SQLAlchemy",
+    "Alembic",
+    "JWT",
+    "Google OAuth",
+    "Render",
+    "Neon"
+  ],
   "stats": [
-    { "value": "18", "label": "REST endpoints", "tone": "yellow" },
-    { "value": "15", "label": "Alembic migrations" },
-    { "value": "2", "label": "sign-in paths: Google OAuth + email OTP" },
-    { "value": "v1.0.0", "label": "signed Android release", "tone": "blue" }
+    {
+      "value": "18",
+      "label": "REST endpoints",
+      "tone": "yellow"
+    },
+    {
+      "value": "15",
+      "label": "Alembic migrations"
+    },
+    {
+      "value": "2",
+      "label": "sign-in paths: Google OAuth + email OTP"
+    },
+    {
+      "value": "v1.0.0",
+      "label": "signed Android release",
+      "tone": "blue"
+    }
   ],
   "links": [
-    { "label": "Download APK v1.0.0", "url": "https://github.com/Harshaapoorv/NotesApp/releases/tag/v1.0.0", "primary": true },
-    { "label": "App code", "url": "https://github.com/Harshaapoorv/NotesApp" },
-    { "label": "API code", "url": "https://github.com/Harshaapoorv/notes-backend" }
+    {
+      "label": "Download APK v1.0.0",
+      "url": "https://github.com/Harshaapoorv/NotesApp/releases/tag/v1.0.0",
+      "primary": true
+    },
+    {
+      "label": "App code",
+      "url": "https://github.com/Harshaapoorv/NotesApp"
+    },
+    {
+      "label": "API code",
+      "url": "https://github.com/Harshaapoorv/notes-backend"
+    },
+    {
+      "label": "Live API docs",
+      "url": "https://notes-backend-9lqo.onrender.com/docs"
+    }
   ],
   "sections": [
     {
       "type": "gallery",
       "title": "The app",
       "images": [
-        { "src": "/images/projects/notesapp/screen-home.webp", "alt": "NotesApp home screen listing notes", "caption": "Home", "shape": "phone" },
-        { "src": "/images/projects/notesapp/screen-create.webp", "alt": "Creating a note with rich text", "caption": "Create a note", "shape": "phone" },
-        { "src": "/images/projects/notesapp/screen-code-block.webp", "alt": "A note showing a formatted code block", "caption": "Code blocks", "shape": "phone" },
-        { "src": "/images/projects/notesapp/screen-export.webp", "alt": "Exporting notes to Excel", "caption": "Excel export", "shape": "phone" },
-        { "src": "/images/projects/notesapp/screen-signup.webp", "alt": "Sign-up screen with Google sign-in", "caption": "Sign up", "shape": "phone" },
-        { "src": "/images/projects/notesapp/screen-offline.webp", "alt": "No internet connection screen", "caption": "Offline state", "shape": "phone" }
+        {
+          "src": "/images/projects/notesapp/screen-home.webp",
+          "alt": "NotesApp home screen listing notes",
+          "caption": "Home",
+          "shape": "phone"
+        },
+        {
+          "src": "/images/projects/notesapp/screen-create.webp",
+          "alt": "Creating a note with rich text",
+          "caption": "Create a note",
+          "shape": "phone"
+        },
+        {
+          "src": "/images/projects/notesapp/screen-code-block.webp",
+          "alt": "A note showing a formatted code block",
+          "caption": "Code blocks",
+          "shape": "phone"
+        },
+        {
+          "src": "/images/projects/notesapp/screen-export.webp",
+          "alt": "Exporting notes to Excel",
+          "caption": "Excel export",
+          "shape": "phone"
+        },
+        {
+          "src": "/images/projects/notesapp/screen-signup.webp",
+          "alt": "Sign-up screen with Google sign-in",
+          "caption": "Sign up",
+          "shape": "phone"
+        },
+        {
+          "src": "/images/projects/notesapp/screen-offline.webp",
+          "alt": "No internet connection screen",
+          "caption": "Offline state",
+          "shape": "phone"
+        }
       ]
     },
     {
       "type": "cards",
       "title": "What I built",
       "items": [
-        { "title": "Auth done properly", "text": "Email and Google sign-in sharing one session layer, email OTP verification and password recovery, and JWTs with automatic refresh-token rotation.", "highlight": true },
-        { "title": "Rich-text editor", "text": "A markdown-inspired editor with headings, links, lists, quotes and language-aware code blocks, plus a built-in formatting guide." },
-        { "title": "Excel export", "text": "Notes exported to a spreadsheet, with task status tracking from pending to in progress to completed." },
-        { "title": "Config API", "text": "App version checks, force updates, maintenance mode and the About and Privacy pages all come from the server, so behaviour changes without a release." },
-        { "title": "Schema that evolves", "text": "PostgreSQL with SQLAlchemy and 15 Alembic migrations, so every change to the database is versioned." },
-        { "title": "Shipped, not just coded", "text": "API on Render with Neon Postgres and Resend for email; the Android APK on GitHub Releases; MIT licensed." }
+        {
+          "title": "Auth done properly",
+          "text": "Email and Google sign-in sharing one session layer, email OTP verification and password recovery, and JWTs with automatic refresh-token rotation.",
+          "highlight": true
+        },
+        {
+          "title": "Rich-text editor",
+          "text": "A markdown-inspired editor with headings, links, lists, quotes and language-aware code blocks, plus a built-in formatting guide."
+        },
+        {
+          "title": "Excel export",
+          "text": "Notes exported to a spreadsheet, with task status tracking from pending to in progress to completed."
+        },
+        {
+          "title": "Config API",
+          "text": "App version checks, force updates, maintenance mode and the About and Privacy pages all come from the server, so behaviour changes without a release."
+        },
+        {
+          "title": "Schema that evolves",
+          "text": "PostgreSQL with SQLAlchemy and 15 Alembic migrations, so every change to the database is versioned."
+        },
+        {
+          "title": "Shipped, not just coded",
+          "text": "API on Render with Neon Postgres and Resend for email; the Android APK on GitHub Releases; MIT licensed."
+        }
       ]
     },
     {
       "type": "gallery",
       "title": "Under the hood",
       "images": [
-        { "src": "/images/projects/notesapp/banner-backend.webp", "alt": "NotesApp backend banner listing its stack", "caption": "The backend" },
-        { "src": "/images/projects/notesapp/architecture.webp", "alt": "NotesApp backend architecture diagram", "caption": "Backend architecture" },
-        { "src": "/images/projects/notesapp/auth-flow.webp", "alt": "Authentication flow diagram", "caption": "Authentication flow" },
-        { "src": "/images/projects/notesapp/er-diagram.webp", "alt": "Database entity relationship diagram", "caption": "Database design" }
+        {
+          "src": "/images/projects/notesapp/banner-backend.webp",
+          "alt": "NotesApp backend banner listing its stack",
+          "caption": "The backend"
+        },
+        {
+          "src": "/images/projects/notesapp/architecture.webp",
+          "alt": "NotesApp backend architecture diagram",
+          "caption": "Backend architecture"
+        },
+        {
+          "src": "/images/projects/notesapp/auth-flow.webp",
+          "alt": "Authentication flow diagram",
+          "caption": "Authentication flow"
+        },
+        {
+          "src": "/images/projects/notesapp/er-diagram.webp",
+          "alt": "Database entity relationship diagram",
+          "caption": "Database design"
+        }
       ]
     },
     {

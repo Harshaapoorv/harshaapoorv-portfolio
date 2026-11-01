@@ -21,30 +21,89 @@
   "journey": {
     "heading": "The journey, panel by panel",
     "items": [
-      { "year": "2019", "title": "Joins SRKR for B.Tech CSE", "text": "Captains the department football and basketball teams. Joins NSS and ACE." },
-      { "year": "2020–21", "title": "Competitive programming", "text": "Rank #448 in Newton's Coding Challenge. HackerRank 5-Star in Python. WorldQuant Applied Data Science I with honors." },
-      { "year": "2022", "title": "First internship, then ACE leadership", "text": "Web dev intern at Blackbucks. Rises to Senior Body and Helping Hand; runs hackathons for 1,000+ attendees." },
-      { "year": "2023", "title": "Capstone, graduation, TCS", "text": "Leads a 5-person NLP capstone to 92% accuracy. Joins TCS and starts on NEST Pensions from day one." },
-      { "year": "2024", "title": "Teaching and freelancing", "text": "Teaches Python to 60+ students. Starts DuYu, a fintech app for a startup." },
-      { "year": "2025", "title": "Technical Excellence Award", "text": "Supervising 2 associates. NEST passes 100K downloads." },
-      { "year": "2026 · SPRING", "title": "Goes full stack", "text": "Ships NotesApp solo: React Native app and FastAPI backend. Starts PassionIsle." },
-      { "year": "2026 · FALL", "title": "Stony Brook", "text": "MS CS (AI/ML). Graduate TA for CSE 312. Secretary of the CP Club." }
+      {
+        "year": "2019",
+        "title": "Joins SRKR for B.Tech CSE",
+        "text": "Captains the department football and basketball teams. Joins NSS and ACE."
+      },
+      {
+        "year": "2020–21",
+        "title": "Competitive programming",
+        "text": "Rank #448 in Newton's Coding Challenge. HackerRank 5-Star in Python. WorldQuant Applied Data Science I with honors."
+      },
+      {
+        "year": "2022",
+        "title": "First internship, then ACE leadership",
+        "text": "Web dev intern at Blackbucks. Rises to Senior Body and Helping Hand; runs hackathons for 1,000+ attendees."
+      },
+      {
+        "year": "2023",
+        "title": "Capstone, graduation, TCS",
+        "text": "Leads a 5-person NLP capstone to 92% accuracy. Joins TCS and starts on NEST Pensions from day one."
+      },
+      {
+        "year": "2024",
+        "title": "Teaching and freelancing",
+        "text": "Teaches Python to 60+ students. Starts DuYu, a fintech app for a startup."
+      },
+      {
+        "year": "2025",
+        "title": "Technical Excellence Award",
+        "text": "Supervising 2 associates. NEST passes 100K downloads."
+      },
+      {
+        "year": "2026 · SPRING",
+        "title": "Goes full stack",
+        "text": "Ships NotesApp solo: React Native app and FastAPI backend. Starts PassionIsle."
+      },
+      {
+        "year": "2026 · FALL",
+        "title": "Stony Brook",
+        "text": "MS CS (AI/ML). Graduate TA for CSE 312. Secretary of the CP Club."
+      }
     ]
   },
   "education": {
     "heading": "Education",
     "items": [
-      { "school": "Stony Brook University", "degree": "MS, Computer Science (AI/ML)", "period": "2026 – 2028", "detail": "Graduate Teaching Assistant · CP Club Secretary" },
-      { "school": "SRKR Engineering College", "degree": "B.Tech, Computer Science & Engineering", "period": "2019 – 2023", "detail": "8.13 CGPA" }
+      {
+        "school": "Stony Brook University",
+        "degree": "MS, Computer Science (AI/ML)",
+        "period": "2026 – 2028",
+        "detail": "Graduate Teaching Assistant · CP Club Secretary"
+      },
+      {
+        "school": "SRKR Engineering College",
+        "degree": "B.Tech, Computer Science & Engineering",
+        "period": "2019 – 2023",
+        "detail": "8.13 CGPA"
+      }
     ]
   },
   "skills": {
     "heading": "Inventory",
     "groups": [
-      { "name": "MOBILE & FRONTEND", "items": ["React Native", "React", "TypeScript", "Redux Toolkit", "RTK Query", "React Navigation", "Tailwind CSS"] },
-      { "name": "BACKEND & DATA", "items": ["Python", "FastAPI", "SQLAlchemy", "Alembic", "Pydantic", "PostgreSQL", "Redis", "AWS S3"] },
+      {
+        "name": "MOBILE & FRONTEND",
+        "items": [
+          "React Native",
+          "React",
+          "TypeScript",
+          "Redux Toolkit",
+          "RTK Query",
+          "React Navigation",
+          "Tailwind CSS"
+        ]
+      },
+      {
+        "name": "BACKEND & DATA",
+        "items": ["Python", "FastAPI", "SQLAlchemy", "Alembic", "Pydantic", "PostgreSQL", "Redis", "AWS S3"]
+      },
       { "name": "ML", "items": ["scikit-learn", "NLTK", "NLP", "text classification", "model evaluation"] },
-      { "name": "TOOLS", "items": ["Git", "Jest", "Xcode", "Android Studio", "Firebase", "Figma", "Render", "Vercel"] }
+      {
+        "name": "TOOLS",
+        "items": ["Git", "Jest", "Xcode", "Android Studio", "Firebase", "Figma", "Render", "Vercel"]
+      }
     ]
   },
   "trophies": {

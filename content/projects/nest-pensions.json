@@ -18,7 +18,11 @@
     { "value": "20%", "label": "faster loads", "tone": "blue" }
   ],
   "links": [
-    { "label": "See the NEST app", "url": "https://www.nestpensions.org.uk/schemeweb/nest/app.html", "primary": true },
+    {
+      "label": "See the NEST app",
+      "url": "https://www.nestpensions.org.uk/schemeweb/nest/app.html",
+      "primary": true
+    },
     { "label": "Read the full TCS story", "url": "/experience/tcs" }
   ],
   "sections": [
@@ -26,9 +30,19 @@
       "type": "cards",
       "title": "Highlights",
       "items": [
-        { "title": "Accessibility for older savers", "text": "Proposed and built text zoom and voice-out. Both shipped.", "highlight": true },
-        { "title": "Solid foundations", "text": "Typed Redux Toolkit store, RTK Query with caching and auth, and a reusable component library." },
-        { "title": "Secure by default", "text": "Keychain-secured tokens for financial data, push notifications and deep linking." }
+        {
+          "title": "Accessibility for older savers",
+          "text": "Proposed and built text zoom and voice-out. Both shipped.",
+          "highlight": true
+        },
+        {
+          "title": "Solid foundations",
+          "text": "Typed Redux Toolkit store, RTK Query with caching and auth, and a reusable component library."
+        },
+        {
+          "title": "Secure by default",
+          "text": "Keychain-secured tokens for financial data, push notifications and deep linking."
+        }
       ]
     }
   ]

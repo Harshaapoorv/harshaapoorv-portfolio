@@ -10,23 +10,52 @@
   "summary": "Built the UK NEST Pensions app from inception: 100K+ downloads, 10 releases, 2 associates supervised.",
   "headline": "Building the UK NEST Pensions app from the first commit",
   "intro": "Systems Engineer by grade, Mobile Application Developer by role. Client-facing, on a UK workplace pension app used by savers to check balances, track contributions and manage their accounts.",
-  "stack": ["React Native", "JavaScript", "TypeScript", "Redux Toolkit", "RTK Query", "Jest", "FCM", "Kotlin", "Xcode"],
+  "stack": [
+    "React Native",
+    "JavaScript",
+    "TypeScript",
+    "Redux Toolkit",
+    "RTK Query",
+    "Jest",
+    "FCM",
+    "Kotlin",
+    "Xcode"
+  ],
   "stats": [
     { "value": "100K+", "label": "downloads", "tone": "yellow" },
     { "value": "5K+", "label": "daily active users" },
     { "value": "7 + 3", "label": "major + minor releases" },
     { "value": "9", "label": "awards", "tone": "blue" }
   ],
-  "links": [{ "label": "See the NEST app", "url": "https://www.nestpensions.org.uk/schemeweb/nest/app.html", "primary": true }],
+  "links": [
+    {
+      "label": "See the NEST app",
+      "url": "https://www.nestpensions.org.uk/schemeweb/nest/app.html",
+      "primary": true
+    }
+  ],
   "sections": [
     {
       "type": "cards",
       "title": "What I built",
       "items": [
-        { "title": "Architecture", "text": "A typed TypeScript Redux Toolkit store, RTK Query for REST APIs with caching and auth flows, React Navigation and a library of reusable components." },
-        { "title": "Platform features", "text": "FCM push notifications, deep linking, AsyncStorage offline storage and Keychain-secured tokens for financial data." },
-        { "title": "Accessibility (my idea)", "text": "Proposed and built text zoom and voice-out so older savers could use the app. Both shipped.", "highlight": true },
-        { "title": "Under the hood", "text": "Debugged Android native modules (Kotlin/WebView) during the React Native New Architecture migration." }
+        {
+          "title": "Architecture",
+          "text": "A typed TypeScript Redux Toolkit store, RTK Query for REST APIs with caching and auth flows, React Navigation and a library of reusable components."
+        },
+        {
+          "title": "Platform features",
+          "text": "FCM push notifications, deep linking, AsyncStorage offline storage and Keychain-secured tokens for financial data."
+        },
+        {
+          "title": "Accessibility (my idea)",
+          "text": "Proposed and built text zoom and voice-out so older savers could use the app. Both shipped.",
+          "highlight": true
+        },
+        {
+          "title": "Under the hood",
+          "text": "Debugged Android native modules (Kotlin/WebView) during the React Native New Architecture migration."
+        }
       ]
     },
     {
@@ -34,9 +63,15 @@
       "title": "Impact",
       "items": [
         { "value": "~50%", "text": "faster feature delivery from reusable components" },
-        { "value": "35%", "text": "fewer production defects, helped by Jest unit tests and better team testing practices" },
+        {
+          "value": "35%",
+          "text": "fewer production defects, helped by Jest unit tests and better team testing practices"
+        },
         { "value": "20%", "text": "faster load time through lazy loading" },
-        { "value": "40%", "text": "reported gain in user satisfaction from the mobile-first migration I helped deliver" }
+        {
+          "value": "40%",
+          "text": "reported gain in user satisfaction from the mobile-first migration I helped deliver"
+        }
       ]
     },
     {

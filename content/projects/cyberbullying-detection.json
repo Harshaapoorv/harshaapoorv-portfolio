@@ -5,7 +5,10 @@
   "categories": ["AI/ML"],
   "status": "archived",
   "order": 5,
-  "cover": { "src": "/images/projects/cyberbullying-detection/cover.webp", "alt": "Cyberbullying detection project" },
+  "cover": {
+    "src": "/images/projects/cyberbullying-detection/cover.webp",
+    "alt": "Cyberbullying detection project"
+  },
   "headline": "Detecting cyberbullying in tweets with classic NLP",
   "intro": "My B.Tech capstone. I led a team of five to build a text classifier that flags cyberbullying in tweets.",
   "role": "Team lead: scoped the project, built the pipeline and compared the models.",
@@ -15,7 +18,9 @@
     { "value": "4", "label": "models compared" },
     { "value": "92%", "label": "accuracy (Random Forest)", "tone": "blue" }
   ],
-  "links": [{ "label": "Project report", "url": "https://tinyurl.com/cyber-bullying-report", "primary": true }],
+  "links": [
+    { "label": "Project report", "url": "https://tinyurl.com/cyber-bullying-report", "primary": true }
+  ],
   "sections": [
     {
       "type": "list",
@@ -29,7 +34,9 @@
     {
       "type": "text",
       "title": "What's next",
-      "paragraphs": ["Automatically reporting flagged content was scoped as future work; the project delivered the detection model."]
+      "paragraphs": [
+        "Automatically reporting flagged content was scoped as future work; the project delivered the detection model."
+      ]
     }
   ]
 }

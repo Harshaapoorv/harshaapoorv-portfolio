@@ -16,8 +16,14 @@
       "title": "What I built",
       "items": [
         { "title": "Secure sign-in", "text": "OTP authentication and secure persistent login." },
-        { "title": "Guided experience", "text": "Chatbot assistance and animated content to walk users through their goals." },
-        { "title": "Smooth on both platforms", "text": "Tuned navigation, animations and layouts for Android and iOS." }
+        {
+          "title": "Guided experience",
+          "text": "Chatbot assistance and animated content to walk users through their goals."
+        },
+        {
+          "title": "Smooth on both platforms",
+          "text": "Tuned navigation, animations and layouts for Android and iOS."
+        }
       ]
     }
   ]
