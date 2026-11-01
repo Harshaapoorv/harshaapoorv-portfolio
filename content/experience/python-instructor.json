@@ -1,0 +1,24 @@
+{
+  "role": "Python Instructor",
+  "organization": "Future IT Solutions",
+  "monogram": "PY",
+  "period": "Apr – Jun 2024",
+  "location": "Remote",
+  "type": "Freelance",
+  "order": 4,
+  "summary": "Taught Python online to 60+ students, from the basics to intermediate topics.",
+  "headline": "Teaching Python to 60+ students",
+  "intro": "A freelance teaching engagement: live online Python classes taking students from their first program to intermediate topics.",
+  "stats": [{ "value": "60+", "label": "students taught", "tone": "yellow" }],
+  "stack": ["Python"],
+  "sections": [
+    {
+      "type": "list",
+      "title": "What I did",
+      "items": [
+        "Taught Python online to 60+ students",
+        "Took the course from the basics to intermediate topics"
+      ]
+    }
+  ]
+}

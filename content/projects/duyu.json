@@ -1,0 +1,30 @@
+{
+  "title": "DuYu",
+  "summary": "Goal-based investment app for a fintech startup. I built the React Native app; the founder owned design and backend.",
+  "meta": "FREELANCE · DEC 2024 – MAY 2025",
+  "categories": ["Mobile"],
+  "status": "archived",
+  "order": 4,
+  "cover": { "src": "/images/projects/duyu/cover.webp", "alt": "DuYu app screens" },
+  "headline": "DuYu: a goal-based investing app for a fintech startup",
+  "intro": "A freelance build for an early-stage startup. The founder owned the product, designs and backend; I built the cross-platform mobile app. The startup didn't go live.",
+  "role": "React Native developer: the whole mobile app, from the designs to a working build.",
+  "stack": ["React Native", "JavaScript", "Redux", "Keychain"],
+  "sections": [
+    {
+      "type": "cards",
+      "title": "What I built",
+      "items": [
+        { "title": "Secure sign-in", "text": "OTP authentication and secure persistent login." },
+        {
+          "title": "Guided experience",
+          "text": "Chatbot assistance and animated content to walk users through their goals."
+        },
+        {
+          "title": "Smooth on both platforms",
+          "text": "Tuned navigation, animations and layouts for Android and iOS."
+        }
+      ]
+    }
+  ]
+}

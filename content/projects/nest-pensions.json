@@ -1,0 +1,49 @@
+{
+  "title": "NEST Pensions app",
+  "summary": "UK pensions app built from inception: 100K+ downloads, 5K+ daily users, accessibility for older savers.",
+  "meta": "TCS · AUG 2023 – JUL 2026",
+  "categories": ["Mobile"],
+  "status": "shipped",
+  "featured": true,
+  "order": 3,
+  "cover": { "src": "/images/projects/nest-pensions/cover.webp", "alt": "NEST Pensions mobile app" },
+  "headline": "NEST Pensions: a UK pensions app from the first commit",
+  "intro": "A React Native app for savers in NEST, a UK workplace pension scheme: check balances, track contributions and manage accounts. I worked on it at TCS from its first commit to 100K+ downloads.",
+  "role": "Mobile Application Developer at TCS: architecture, features, accessibility, testing and releases.",
+  "stack": ["React Native", "JavaScript", "TypeScript", "Redux Toolkit", "RTK Query", "Jest", "FCM"],
+  "stats": [
+    { "value": "100K+", "label": "downloads", "tone": "yellow" },
+    { "value": "5K+", "label": "daily active users" },
+    { "value": "10", "label": "store releases" },
+    { "value": "20%", "label": "faster loads", "tone": "blue" }
+  ],
+  "links": [
+    {
+      "label": "See the NEST app",
+      "url": "https://www.nestpensions.org.uk/schemeweb/nest/app.html",
+      "primary": true
+    },
+    { "label": "Read the full TCS story", "url": "/experience/tcs" }
+  ],
+  "sections": [
+    {
+      "type": "cards",
+      "title": "Highlights",
+      "items": [
+        {
+          "title": "Accessibility for older savers",
+          "text": "Proposed and built text zoom and voice-out. Both shipped.",
+          "highlight": true
+        },
+        {
+          "title": "Solid foundations",
+          "text": "Typed Redux Toolkit store, RTK Query with caching and auth, and a reusable component library."
+        },
+        {
+          "title": "Secure by default",
+          "text": "Keychain-secured tokens for financial data, push notifications and deep linking."
+        }
+      ]
+    }
+  ]
+}

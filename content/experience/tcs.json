@@ -1,0 +1,96 @@
+{
+  "role": "Systems Engineer / Mobile Application Developer",
+  "organization": "Tata Consultancy Services",
+  "monogram": "TCS",
+  "period": "Jun 2023 – Aug 2026",
+  "location": "Bengaluru, India",
+  "type": "Full-time",
+  "order": 1,
+  "featured": true,
+  "summary": "Built the UK NEST Pensions app from inception: 100K+ downloads, 10 releases, 2 associates supervised.",
+  "headline": "Building the UK NEST Pensions app from the first commit",
+  "intro": "Systems Engineer by grade, Mobile Application Developer by role. Client-facing, on a UK workplace pension app used by savers to check balances, track contributions and manage their accounts.",
+  "stack": [
+    "React Native",
+    "JavaScript",
+    "TypeScript",
+    "Redux Toolkit",
+    "RTK Query",
+    "Jest",
+    "FCM",
+    "Kotlin",
+    "Xcode"
+  ],
+  "stats": [
+    { "value": "100K+", "label": "downloads", "tone": "yellow" },
+    { "value": "5K+", "label": "daily active users" },
+    { "value": "7 + 3", "label": "major + minor releases" },
+    { "value": "9", "label": "awards", "tone": "blue" }
+  ],
+  "links": [
+    {
+      "label": "See the NEST app",
+      "url": "https://www.nestpensions.org.uk/schemeweb/nest/app.html",
+      "primary": true
+    }
+  ],
+  "sections": [
+    {
+      "type": "cards",
+      "title": "What I built",
+      "items": [
+        {
+          "title": "Architecture",
+          "text": "A typed TypeScript Redux Toolkit store, RTK Query for REST APIs with caching and auth flows, React Navigation and a library of reusable components."
+        },
+        {
+          "title": "Platform features",
+          "text": "FCM push notifications, deep linking, AsyncStorage offline storage and Keychain-secured tokens for financial data."
+        },
+        {
+          "title": "Accessibility (my idea)",
+          "text": "Proposed and built text zoom and voice-out so older savers could use the app. Both shipped.",
+          "highlight": true
+        },
+        {
+          "title": "Under the hood",
+          "text": "Debugged Android native modules (Kotlin/WebView) during the React Native New Architecture migration."
+        }
+      ]
+    },
+    {
+      "type": "metrics",
+      "title": "Impact",
+      "items": [
+        { "value": "~50%", "text": "faster feature delivery from reusable components" },
+        {
+          "value": "35%",
+          "text": "fewer production defects, helped by Jest unit tests and better team testing practices"
+        },
+        { "value": "20%", "text": "faster load time through lazy loading" },
+        {
+          "value": "40%",
+          "text": "reported gain in user satisfaction from the mobile-first migration I helped deliver"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Leading people",
+      "paragraphs": [
+        "Reporting manager for 2 associates for nearly 2 years: assigned work, reviewed their pull requests, set goals and shaped their salary-linked annual evaluations. I also interviewed candidates and presented progress to our UK clients."
+      ]
+    },
+    {
+      "type": "timeline",
+      "title": "Timeline",
+      "items": [
+        { "date": "JUN 2023", "text": "Joined TCS; Initial Learning Program" },
+        { "date": "AUG 2023", "text": "Moved to NEST Pensions as a Mobile Application Developer" },
+        { "date": "AUG – NOV 2023", "text": "3 Special Initiative Awards" },
+        { "date": "JUN 2025", "text": "Technical Excellence Award" },
+        { "date": "JUN – JUL 2026", "text": "Service & Commitment Award; last day of service" }
+      ]
+    }
+  ]
+}

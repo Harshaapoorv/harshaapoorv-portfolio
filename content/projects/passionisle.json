@@ -1,0 +1,39 @@
+{
+  "title": "PassionIsle",
+  "summary": "Event discovery app. Sole engineer: architecture doc, API spec, ADRs and a FastAPI + Redis + S3 backend.",
+  "meta": "FREELANCE · JUL 2026 – NOW",
+  "categories": ["Full Stack", "Mobile", "Backend"],
+  "status": "in-development",
+  "featured": true,
+  "order": 1,
+  "badge": "COMING SOON",
+  "headline": "PassionIsle: an event discovery app, built by one engineer",
+  "intro": "A freelance product I own technically end to end: frontend, backend and deployment. The design phase is done and it's now being built.",
+  "role": "Sole technical owner: architecture, API design, backend, mobile app and deployment.",
+  "stack": ["React Native", "FastAPI", "PostgreSQL", "Redis", "AWS S3"],
+  "sections": [
+    {
+      "type": "cards",
+      "title": "What I've done so far",
+      "items": [
+        {
+          "title": "Architecture first",
+          "text": "Wrote the architecture document, the API specification and architecture decision records before writing product code.",
+          "highlight": true
+        },
+        {
+          "title": "Role-based access",
+          "text": "Designed access control around the different kinds of users the app serves."
+        },
+        { "title": "Backend", "text": "FastAPI on PostgreSQL, with Redis and AWS S3 for media." }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Status",
+      "paragraphs": [
+        "In development. The business details are private until launch; this page will grow as it ships."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "name": "Harsha Apoorv",
+  "fullName": "Harsha Apoorv Merapureddy",
+  "url": "https://www.harshaapoorv.com",
+  "email": "harshaapoorva164@gmail.com",
+  "seo": {
+    "title": "Harsha Apoorv · Software engineer (mobile, web, backend, ML)",
+    "description": "MS CS student at Stony Brook. Built the UK NEST Pensions app in React Native at TCS (100K+ downloads). Looking for Summer 2027 internships in mobile, frontend, backend, full stack and ML.",
+    "image": "/og/default.png"
+  },
+  "nav": [
+    {
+      "label": "About",
+      "to": "/about"
+    },
+    {
+      "label": "Experience",
+      "to": "/experience"
+    },
+    {
+      "label": "Projects",
+      "to": "/projects"
+    },
+    {
+      "label": "Contact",
+      "to": "/contact"
+    }
+  ],
+  "socials": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/Harshaapoorv"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/harshaapoorv/"
+    },
+    {
+      "label": "Email",
+      "url": "mailto:harshaapoorva164@gmail.com"
+    },
+    {
+      "label": "HackerRank",
+      "url": "https://www.hackerrank.com/profile/harshaapoorv"
+    },
+    {
+      "label": "CodinGame",
+      "url": "https://www.codingame.com/profile/bf1231e643c9a1b656582be9f2c8aa978740475"
+    }
+  ],
+  "resumes": [
+    {
+      "role": "SWE",
+      "label": "Software Engineering",
+      "file": "/resumes/Harsha_Merapureddy_SWE_Intern.pdf",
+      "default": true
+    },
+    {
+      "role": "Mobile",
+      "label": "Mobile (React Native)",
+      "file": "/resumes/Harsha_Merapureddy_Mobile_Intern.pdf"
+    },
+    {
+      "role": "Frontend",
+      "label": "Frontend (React)",
+      "file": "/resumes/Harsha_Merapureddy_Frontend_Intern.pdf"
+    },
+    {
+      "role": "Backend",
+      "label": "Backend (Python)",
+      "file": "/resumes/Harsha_Merapureddy_Backend_Intern.pdf"
+    },
+    {
+      "role": "Full Stack",
+      "label": "Full Stack",
+      "file": "/resumes/Harsha_Merapureddy_FullStack_Intern.pdf"
+    },
+    {
+      "role": "AI/ML",
+      "label": "AI / ML",
+      "file": "/resumes/Harsha_Merapureddy_AIML_Intern.pdf"
+    }
+  ],
+  "hero": {
+    "tag": "ISSUE #01 · OPEN TO SUMMER 2027 INTERNSHIPS",
+    "headline": "Hi, I'm Harsha. I build apps people actually use.",
+    "rolePrefix": "Right now I'm looking for",
+    "roles": ["mobile (React Native)", "frontend (React)", "backend (Python)", "full-stack", "AI/ML"],
+    "roleSuffix": "roles.",
+    "intro": "MS Computer Science student at Stony Brook (AI/ML). For 3 years I built the UK NEST Pensions app in React Native at TCS, from the first commit to 100K+ downloads. Now I build full stack: React Native, React, Python and FastAPI.",
+    "primaryCta": {
+      "label": "See my work",
+      "to": "/projects"
+    },
+    "avatar": {
+      "src": "/images/brand/avatar.webp",
+      "alt": "Illustrated avatar of Harsha"
+    },
+    "panelCaption": "PANEL 1 · STONY BROOK, NY",
+    "bigStamp": {
+      "value": "100K+",
+      "label": "DOWNLOADS SHIPPED"
+    },
+    "smallStamp": "SHIPPED!",
+    "resumeHint": "a resume for each role"
+  },
+  "stats": [
+    {
+      "value": "100K+",
+      "label": "downloads of the NEST app",
+      "tone": "yellow"
+    },
+    {
+      "value": "5K+",
+      "label": "daily active users on NEST"
+    },
+    {
+      "value": "10",
+      "label": "App Store & Play releases"
+    },
+    {
+      "value": "35%",
+      "label": "fewer production defects"
+    },
+    {
+      "value": "9",
+      "label": "TCS awards, incl. Technical Excellence",
+      "tone": "blue"
+    }
+  ],
+  "featured": {
+    "label": "NOW SHOWING",
+    "heading": "Featured work"
+  },
+  "chapters": {
+    "label": "THE STORY SO FAR",
+    "heading": "Four chapters",
+    "items": [
+      {
+        "label": "CH. 01 · 2019–23",
+        "title": "The origin story",
+        "text": "B.Tech CSE at SRKR. Captain, two teams. Led an NLP capstone to 92% accuracy.",
+        "to": "/about"
+      },
+      {
+        "label": "CH. 02 · 2023–26",
+        "title": "Shipping at scale",
+        "text": "TCS: NEST Pensions from day one. Supervised 2 associates. 9 awards.",
+        "to": "/experience/tcs"
+      },
+      {
+        "label": "CH. 03 · SIDE QUESTS",
+        "title": "Going full stack",
+        "text": "DuYu, NotesApp, PassionIsle: from mobile screens to APIs and architecture.",
+        "to": "/projects"
+      },
+      {
+        "label": "CH. 04 · NOW",
+        "title": "Stony Brook",
+        "text": "MS CS (AI/ML). Graduate TA. CP Club Secretary. Cricket team.",
+        "to": "/about"
+      }
+    ]
+  },
+  "marquee": [
+    "React Native",
+    "TypeScript",
+    "React",
+    "Python",
+    "FastAPI",
+    "PostgreSQL",
+    "Redis",
+    "Redux Toolkit",
+    "Jest",
+    "scikit-learn"
+  ],
+  "cta": {
+    "heading": "Got a role, a project or a question?",
+    "text": "Send a message right from the site. It lands straight in my inbox.",
+    "button": {
+      "label": "Say hi",
+      "to": "/contact"
+    }
+  },
+  "footer": {
+    "text": "Built with React, React Router, Tailwind"
+  },
+  "pages": {
+    "experience": {
+      "label": "EXPERIENCE",
+      "heading": "Where I've worked",
+      "intro": "Each role has its own page with the full story: what I owned, how I did it, and what changed because of it."
+    },
+    "projects": {
+      "label": "THE COLLECTED ISSUES",
+      "heading": "Projects",
+      "intro": "Apps I've shipped at work, for clients and on my own. Each one has its own page with screenshots, stack and links."
+    },
+    "contact": {
+      "label": "THE LAST PANEL · FOR NOW",
+      "heading": "Let's write the next chapter together.",
+      "intro": "I'm looking for Summer 2027 internships in mobile, frontend, backend, full stack and ML. Recruiters, founders, classmates: every message lands straight in my inbox.",
+      "formTitle": "SAY HI!",
+      "success": "Message sent. Thanks for reaching out, I'll get back to you soon.",
+      "note": "No account needed. Your message goes straight to my inbox."
+    },
+    "notFound": {
+      "heading": "This panel is missing from the comic.",
+      "text": "The page you're looking for doesn't exist or has moved."
+    }
+  }
+}

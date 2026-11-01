@@ -1,0 +1,24 @@
+{
+  "role": "Web Development Intern",
+  "organization": "Blackbucks",
+  "monogram": "BB",
+  "period": "Feb – Mar 2022",
+  "location": "Remote",
+  "type": "Internship",
+  "order": 6,
+  "summary": "Built the responsive UI of a resume builder web app in HTML, CSS and JavaScript.",
+  "headline": "My first internship: a resume builder for students",
+  "intro": "A short remote internship where I built the user interface of a resume builder platform that let college students create customizable resumes.",
+  "stack": ["HTML", "CSS", "JavaScript"],
+  "sections": [
+    {
+      "type": "list",
+      "title": "What I did",
+      "items": [
+        "Designed and built a responsive UI for the resume builder",
+        "Joined weekly team meetings to discuss progress and blockers",
+        "Wrote status reports on completed work, next goals and blockers"
+      ]
+    }
+  ]
+}

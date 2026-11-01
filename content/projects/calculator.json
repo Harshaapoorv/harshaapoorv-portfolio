@@ -1,0 +1,40 @@
+{
+  "title": "Calculator",
+  "summary": "Chained operations, careful edge-case handling and automatic light/dark theme.",
+  "meta": "PERSONAL · DEC 2025 – JAN 2026",
+  "categories": ["Mobile"],
+  "status": "shipped",
+  "order": 7,
+  "badge": "2 + 2 = 4",
+  "headline": "A calculator that handles the edge cases",
+  "intro": "A small React Native CLI app to practice clean state management with custom hooks.",
+  "role": "Solo build.",
+  "stack": ["React Native", "JavaScript", "Context API", "Custom hooks"],
+  "links": [
+    {
+      "label": "Watch the demo",
+      "url": "https://drive.google.com/file/d/1QHhyvshX5xmTphb13ZRGRW4wGOLfOvVD/view",
+      "primary": true
+    },
+    {
+      "label": "Code",
+      "url": "https://github.com/Harshaapoorv/MyCalculator"
+    }
+  ],
+  "sections": [
+    {
+      "type": "list",
+      "title": "Features",
+      "items": [
+        "Chained calculations, evaluated left to right",
+        "Backspace that safely handles zero, operators and the error state",
+        "Division by zero shows an error instead of crashing",
+        "Light and dark theme that follows the system"
+      ]
+    }
+  ],
+  "cover": {
+    "src": "/images/projects/calculator/cover.webp",
+    "alt": "Calculator app in light and dark themes"
+  }
+}

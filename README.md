@@ -1,290 +1,83 @@
-# 🌐 Harsha Apoorv | Personal Portfolio
+# harshaapoorv.com
 
-Welcome to the source code of my personal portfolio website.
+My portfolio: a multi-page, pre-rendered React site where **every word, number and image comes from JSON** in [`content/`](content).
 
-This portfolio is designed to showcase my journey as a Mobile Application Developer, highlighting my professional experience, technical expertise, featured projects, education, achievements, certifications, and ways to connect.
+**Stack:** React 19 · React Router 7 (pre-rendered, no server) · TypeScript · Tailwind CSS 4 · Zod · EmailJS · Vitest · Playwright · Vercel
 
-🔗 **Live Website:** https://www.harshaapoorv.com
-
----
-
-# ✨ Features
-
-- 👋 Professional landing page
-- 👨‍💻 About Me section
-- 💼 Interactive Experience timeline
-- 🎓 Education timeline
-- 🏆 Extracurricular achievements
-- 🚀 Featured Projects showcase
-- 📱 Fully responsive layout
-- 📬 Functional contact section
-- 🎨 Clean and modern UI
-- ⚡ Fast loading with Vite
-
----
-
-# 📑 Table of Contents
-
-- Overview
-- Features
-- Live Website
-- Portfolio Sections
-- Technology Stack
-- Project Structure
-- Running Locally
-- Future Improvements
-- Author
-- License
-
----
-
-# 📖 Overview
-
-The portfolio serves as a centralized hub for my professional profile.
-
-It enables recruiters, clients, and fellow developers to explore:
-
-- Professional Experience
-- Technical Skills
-- Featured Projects
-- Education
-- Extracurricular Activities
-- Resume
-- Contact Information
-
-The website focuses on simplicity, readability, and performance while maintaining a clean visual design.
-
----
-
-# 🌍 Live Website
-
-**Portfolio**
-
-https://www.harshaapoorv.com
-
----
-
-# 🖥 Portfolio Sections
-
-## 👋 About
-
-Introduces who I am, my background, interests, and the technologies I enjoy working with.
-
-Highlights:
-
-- React
-- React Native
-- Redux
-- SQL
-- Figma
-- Expo
-
----
-
-## 💼 Experience
-
-Professional experience including:
-
-- Tata Consultancy Services
-- DuYu
-- Black Bucks
-
-Each experience includes:
-
-- Responsibilities
-- Achievements
-- Technologies used
-- Timeline
-
----
-
-## 🎓 Education
-
-Educational background featuring:
-
-- SRKR Engineering College
-- Tirumala Junior Kalasala
-- Vasavi Ideal Public School
-
-Including:
-
-- Degree
-- CGPA
-- Academic timeline
-
----
-
-## 🏆 Extracurricular Activities
-
-Interactive cards describing:
-
-- Executive Body Member
-- Helping Wings
-- Web Development Internship
-- Soccer Captain
-- Basketball Captain
-
-Each card opens a modal containing additional information and images.
-
----
-
-## 🚀 Projects
-
-Showcases featured work including:
-
-- NotesApp
-- Notes Backend
-- React Native Calculator
-- Food Delivery Website
-- Machine Learning Projects
-
-Each project includes:
-
-- Description
-- Technology tags
-- Live Demo
-- GitHub Repository (where applicable)
-
----
-
-## 📬 Contact
-
-Visitors can connect through:
-
-- Contact Form
-- Gmail
-- LinkedIn
-- GitHub
-- HackerRank
-- Portfolio Links
-
----
-
-# 🛠 Technology Stack
-
-| Category | Technologies |
-|----------|--------------|
-| Frontend | React |
-| Build Tool | Vite |
-| Styling | Tailwind CSS |
-| Language | JavaScript |
-| Icons | React Icons |
-| Routing | React Scroll |
-| Deployment | Vercel |
-
----
-
-# 📂 Project Structure
-
-```text
-harshaapoorv-portfolio/
-│
-├── public/
-│
-├── src/
-│   ├── assets/
-│   ├── components/
-│   ├── screens/
-│   ├── pages/
-│   ├── App.css
-│   ├── App.jsx
-│   ├── index.css
-│   └── main.jsx
-│
-├── eslint.config.js
-├── index.html
-├── package.json
-├── tailwind.config.js
-├── postcss.config.js
-├── vite.config.js
-└── README.md
-```
-
----
-
-# 🚀 Running Locally
-
-Clone the repository
-
-```bash
-git clone https://github.com/Harshaapoorv/harshaapoorv-portfolio.git
-```
-
-Navigate into the project
-
-```bash
-cd harshaapoorv-portfolio
-```
-
-Install dependencies
+## Run it
 
 ```bash
 npm install
+npm run dev          # http://localhost:5173
+npm run build        # pre-renders every page into build/client
+npm run preview      # serves the build on http://localhost:4173
 ```
 
-Start development server
+Checks (all run in CI on every pull request):
 
 ```bash
-npm run dev
+npm run typecheck && npm run lint && npm test && npm run test:e2e
 ```
 
-Build production
+## Editing content (no code changes needed)
 
-```bash
-npm run build
+| To change… | Edit |
+|---|---|
+| Hero, stats, home sections, nav, socials, resumes, page intros | `content/site.json` |
+| About page: story, character stats, journey, education, skills, awards | `content/about.json` |
+| A project | `content/projects/<slug>.json` |
+| A role | `content/experience/<slug>.json` |
+
+### Add a project
+
+1. Copy an existing file, e.g. `content/projects/calculator.json` → `content/projects/my-app.json`.
+   The file name becomes the URL: `/projects/my-app`.
+2. Put images in `assets-src/projects/my-app/` and run `npm run images`.
+   They're converted to WebP in `public/images/projects/my-app/`; reference them as
+   `/images/projects/my-app/<name>.webp`.
+3. Set `"featured": true` to show it on the home page and `"order"` to position it.
+
+That's it: the card, the filter chips, the detail page and its link preview are generated automatically.
+Adding a role works the same way in `content/experience/`.
+
+**Fields worth knowing**
+
+- `categories`: any of `Mobile`, `Frontend`, `Backend`, `Full Stack`, `AI/ML` (drives the filters).
+- `status`: `shipped`, `in-development` or `archived`.
+- `cover` (optional): card image. Without one, the card shows `badge` as a comic stamp.
+- `stats`: `{ "value", "label", "tone": "plain" | "yellow" | "blue" }`.
+- `links`: `{ "label", "url", "primary": true }`. Site paths like `/experience/tcs` work too.
+- `sections`: an ordered list of blocks, each with a `type`:
+  `text` (paragraphs) · `cards` (title + text, `highlight` for yellow) · `metrics` (big value + text) ·
+  `list` · `timeline` (date + text) · `gallery` (images; `"shape": "phone"` for screenshots).
+
+If a file has a typo or a missing field, `npm run build` fails with a message naming the file and field,
+so a broken page never reaches the live site. The schema lives in [`app/content/schema.ts`](app/content/schema.ts).
+
+## Project structure
+
+```
+app/
+  components/
+    ui/        Buttons, chips, panels, stamps, speech bubbles, typography
+    cards/     ProjectCard, ExperienceCard, StatCard, InfoCard, ChapterCard
+    sections/  Hero pieces, stats grid, filters, detail-page layout, gallery, timeline, contact form
+    layout/    Header, footer, resume menu, skip link
+  content/     Loads and validates /content (schema.ts, index.ts)
+  routes/      One file per page
+  lib/         SEO tags, scroll reveal, EmailJS, helpers
+content/       All site content (JSON)
+assets-src/    Original images; `npm run images` writes optimized WebP to public/images
+public/        Resumes, images, favicon, social preview image
+tests/         unit (Vitest) and e2e (Playwright, desktop + phone)
 ```
 
----
+## Contact form
 
-# 🎯 Design Goals
+Messages are sent with EmailJS (fields `name`, `email`, `message`). The public client keys can be overridden
+with the variables in `.env.example`.
 
-This portfolio emphasizes:
+## Deploying
 
-- Clean UI
-- Responsive Design
-- Performance
-- Professional Presentation
-- Easy Navigation
-- Minimalistic Layout
-- Recruiter Friendly
-
----
-
-# 🔮 Future Improvements
-
-- 🌙 Dark Mode
-- 🌐 Multi-language support
-- 📝 Technical Blog
-- 📊 Visitor Analytics
-- 🎥 Embedded project videos
-- 📅 Timeline animations
-- 🤖 AI-powered chatbot
-- 📈 GitHub statistics integration
-
----
-
-# 👨‍💻 Author
-
-**Harsha Apoorv**
-
-🌐 Portfolio  
-https://www.harshaapoorv.com
-
-💼 LinkedIn  
-https://linkedin.com/in/harshaapoorv
-
-💻 GitHub  
-https://github.com/Harshaapoorv
-
-📧 Email  
-harsha.apoorv@harshaapoorv.com
-
----
-
-# 📄 License
-
-This project is licensed under the MIT License.
-
----
-
-⭐ If you like this portfolio, consider giving the repository a star.
+Vercel builds with `npm run build` and serves `build/client` (see `vercel.json`).
+Every page is a static HTML file; unknown URLs get the custom 404 page.

@@ -1,0 +1,26 @@
+{
+  "role": "Graduate Teaching Assistant",
+  "organization": "Stony Brook University",
+  "monogram": "SBU",
+  "period": "Aug 2026 – Present",
+  "location": "Stony Brook, NY",
+  "type": "Part-time",
+  "order": 2,
+  "summary": "CSE 312: Social, Legal, and Ethical Issues in Computing. Grading for 2 sections, 120 students.",
+  "headline": "Grading 120 students in computing ethics",
+  "intro": "Graduate Teaching Assistant for CSE 312, Social, Legal, and Ethical Issues in Computing, in the Department of Computer Science.",
+  "stats": [
+    { "value": "2", "label": "sections", "tone": "yellow" },
+    { "value": "120", "label": "students" }
+  ],
+  "sections": [
+    {
+      "type": "list",
+      "title": "What I do",
+      "items": [
+        "Grade written submissions for two sections of 80 and 40 students",
+        "Keep grading consistent across both sections against the course rubrics"
+      ]
+    }
+  ]
+}
