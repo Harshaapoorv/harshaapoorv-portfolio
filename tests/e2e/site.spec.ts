@@ -3,7 +3,11 @@ import { readdirSync } from "node:fs";
 
 const slugs = (dir: string) => readdirSync(`content/${dir}`).map((f) => f.replace(/\.json$/, ""));
 const routes = [
-  "/", "/about", "/experience", "/projects", "/contact",
+  "/",
+  "/about",
+  "/experience",
+  "/projects",
+  "/contact",
   ...slugs("projects").map((s) => `/projects/${s}`),
   ...slugs("experience").map((s) => `/experience/${s}`),
 ];
@@ -38,7 +42,10 @@ test("project filters narrow the list and update the URL", async ({ page }) => {
 
 test("contact form requires its fields before sending", async ({ page }) => {
   let sent = false;
-  await page.route("**/api.emailjs.com/**", (r) => { sent = true; return r.fulfill({ status: 200, body: "OK" }); });
+  await page.route("**/api.emailjs.com/**", (r) => {
+    sent = true;
+    return r.fulfill({ status: 200, body: "OK" });
+  });
   await page.goto("/contact");
   await page.getByRole("button", { name: /send it my way/i }).click();
   expect(sent).toBe(false);
@@ -58,3 +65,30 @@ test("phone menu opens and navigates", async ({ page, isMobile }) => {
   await expect(page).toHaveURL(/\/projects$/);
   await expect(page.getByRole("button", { name: "Open menu" })).toBeVisible();
 });
+
+for (const path of ["/", "/contact"]) {
+  test(`resume menu on ${path} opens above everything else`, async ({ page }) => {
+    await page.goto(path);
+    const trigger = page
+      .locator("main")
+      .getByRole("button", { name: /resume/i })
+      .first();
+    await trigger.scrollIntoViewIfNeeded();
+    await trigger.click();
+    const links = page.getByRole("link", {
+      name: /Software Engineering|Mobile \(React Native\)|Frontend|Backend|Full Stack|AI \/ ML/,
+    });
+    await expect(links).toHaveCount(6);
+    // Every option must be the top-most element at its own centre (nothing painted over it).
+    for (const link of await links.all()) {
+      const covered = await link.evaluate((el) => {
+        const r = el.getBoundingClientRect();
+        const top = document.elementFromPoint(r.left + r.width / 2, r.top + r.height / 2);
+        return !(top && el.contains(top));
+      });
+      expect(covered).toBe(false);
+    }
+    await page.keyboard.press("Escape");
+    await expect(links).toHaveCount(0);
+  });
+}

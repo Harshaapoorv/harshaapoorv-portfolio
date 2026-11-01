@@ -23,7 +23,14 @@ describe("ProjectCard", () => {
 describe("FilterChips", () => {
   it("marks the selected option and reports clicks", () => {
     let picked = "";
-    render(<FilterChips label="Filter" options={["All", "Mobile"] as const} value="All" onChange={(v) => (picked = v)} />);
+    render(
+      <FilterChips
+        label="Filter"
+        options={["All", "Mobile"] as const}
+        value="All"
+        onChange={(v) => (picked = v)}
+      />,
+    );
     expect(screen.getByRole("button", { name: "All" })).toHaveAttribute("aria-pressed", "true");
     fireEvent.click(screen.getByRole("button", { name: "Mobile" }));
     expect(picked).toBe("Mobile");

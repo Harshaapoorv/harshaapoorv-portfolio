@@ -39,7 +39,11 @@ describe("content", () => {
 
   it("only links internally to pages that exist", () => {
     const pages = new Set([
-      "/", "/about", "/experience", "/projects", "/contact",
+      "/",
+      "/about",
+      "/experience",
+      "/projects",
+      "/contact",
       ...projects.map((p) => `/projects/${p.slug}`),
       ...experiences.map((e) => `/experience/${e.slug}`),
     ]);
